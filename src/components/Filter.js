@@ -14,7 +14,7 @@ const Filter = ({ dispatch }) => {
 
   return (
     <div>
-      <button type="button" onClick={handleShowAll}>
+      <button className='boton' data-testid='show-all' type="button" onClick={handleShowAll}>
         Show All
       </button>
       <button type="button" onClick={handleShowComplete}>

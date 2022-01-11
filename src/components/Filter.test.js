@@ -11,8 +11,6 @@ test('renders Show All button', () => {
 test('should click on all button', () => {
   render(<Filter />);
 
-  const handleShowAll = jest.fn()
-
-  fireEvent.click(getByText('Show All'))
+  const all = screen.getByTestId(`show-all`);
 
 });
